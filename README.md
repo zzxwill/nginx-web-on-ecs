@@ -13,13 +13,13 @@ module "website" {
 
 variable "zone_id" {
   description = "Zone ID"
-  type = "string"
+  type = string
   default = "cn-beijing-i"
 }
 
 variable "password" {
   description = "ECS instance password for root user"
-  type = "string"
+  type = string
   default = "PasefjsfdY123!"
 }
 
